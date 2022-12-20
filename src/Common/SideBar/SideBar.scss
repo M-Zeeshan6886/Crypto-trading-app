@@ -1,0 +1,125 @@
+@import '../../Sass/mixin';
+@import '../../Sass/variables';
+
+.sidebar-container{
+    width:20%;
+    height:auto;
+    padding: .5rem 0rem;
+    // background-color: black;
+    background-color: #1E1E1E;
+
+    &-content{
+        width: 100%;
+        height: 100vh;
+        padding: .5rem 0rem;
+   display:flex;
+   flex-direction:column;
+   justify-content: space-between;
+        // background-color: gray;
+    &-upper{
+width: 100%;
+height: auto;
+// background-color: black;
+        &-logo{
+            width: 85%;
+            height: auto;
+            padding: 3rem 0rem;
+            
+            // background-color: purple;
+            
+background: linear-gradient(185.89deg, #B85D70 0.55%, #EC9D4F 100%);
+border-radius: 0px 30px 30px 0px;
+         &>h1{
+          color:white;
+          font-size:20px;
+          text-align:center;
+          margin-top:.5rem;
+         }  
+         &>img{
+            // background-color: lawngreen;
+            margin-left: 9rem;
+         
+        }
+
+        }
+        &-dashboard{
+            margin-top: 2rem;
+            width:90%;
+            height: auto;
+            padding: 1rem 0rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(90.23deg, #DF8D57 6.94%, rgba(223, 141, 87, 0) 84.3%);;
+           &>img{
+            width: 2rem;
+            height: 2rem;
+           }
+           &>h2{
+            color:white;
+            margin-left: 1rem;
+           }
+        }
+    }
+
+    &-lower{
+        width:100%;
+        height: auto;
+        padding: .5rem 0rem;
+        // background-color: ;
+        &-help{
+            display: flex;
+            align-items: center;
+            margin-left: 1.5rem;
+            // background-color: azure;
+            &>p{
+                color: #FFFFFF;
+                margin-left:.5rem;
+                font-size: 1.5rem;
+            }
+        }
+        &-community{
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            margin-left: 1.5rem;
+            // background-color: azure;
+            &>p{
+                font-size: 1.5rem;
+                margin-left:.5rem;
+                
+                color: #FFFFFF;
+                
+            }
+        }
+        &-ateeb{
+            margin-top: 1rem;
+            width:44%;
+            padding: .5rem 0rem;
+            display:flex;
+            align-items:center;
+            // justify-content: center;
+            border: 1px solid #FFFFFF;
+            border-radius: 15px;
+            margin-left: 1rem;
+
+
+            &>span{
+                width:2.5rem;
+                height:2.5rem;
+                border-radius:.5rem;
+                margin-left: 1rem;
+                background-color: #DF8D57;
+            }
+            &>p{
+                color: white;
+                margin-left: .5rem;
+                font-size: 1.5rem;
+            }
+            &>img{
+                margin-left: 1rem;
+            }
+        }
+    }
+    }
+}
