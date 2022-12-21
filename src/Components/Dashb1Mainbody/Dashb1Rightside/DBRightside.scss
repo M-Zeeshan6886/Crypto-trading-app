@@ -1,0 +1,36 @@
+@import '../../../Sass/mixin';
+@import '../../../Sass/variables';
+
+.rightside-container{
+    width: 20%;
+    height: auto;
+    padding: 11rem 0rem;
+    color: $gray;
+    text-align: center;
+    background-color: $black;
+    &-content{
+        width: 80%;
+        height: auto;
+        padding: 1rem 0rem;
+        margin: auto;
+        // margin-top: 11rem;
+        // text-align: left;
+        background: #3F3F3F;
+        border-radius: 20px;
+        &>p{
+            color: white;
+            text-align: left;
+            margin-left: 2.5rem;
+            
+        }
+    }
+}
+.blackbox{
+    width: 80%;
+    height: 15vh;
+    
+    margin: auto;
+    background: #1E1E1E;
+border-radius: 10px;
+margin-top: 1rem;
+}
