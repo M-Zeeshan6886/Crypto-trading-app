@@ -1,0 +1,19 @@
+@import '../../Sass/mixin';
+@import '../../Sass/variables';
+
+
+.Navigation-container{
+    // width: 45px;
+    height: 100vh;
+    padding: 2rem 0rem;
+    // margin: auto;
+    background-color: $black;
+    &>h2{
+        color: white;
+        font-size: 2rem;
+        cursor:pointer;
+        // margin: auto;
+        margin-left: 13px;
+
+    }
+}
