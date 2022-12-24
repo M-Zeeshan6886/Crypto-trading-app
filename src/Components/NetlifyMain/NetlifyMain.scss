@@ -1,0 +1,143 @@
+@import '../../Sass/mixin';
+@import '../../Sass/variables';
+// @import "~bootstrap/scss/bootstrap";
+
+.netlify-container{
+    display: flex;
+   width: 100%;
+   height: auto;
+  
+  &-main{
+    width: 100%;
+    height: auto;
+    padding: .5rem 0rem;
+    background-color: lightblue;
+// z-index: -1;
+&-topbar{
+    width: 90%;
+    height: auto;
+    float:right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1.5rem;
+    background-color: white;
+    &>p{
+        color: #0083FC;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    &>button{
+      padding:1rem 1.5rem;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+     color: white;
+     border: none;
+      background-color: #0083FC;
+      &>img{
+        margin-left: 1rem;
+
+      }
+    }
+}
+
+&-cards{
+    width: 90%;
+    height: auto;
+    margin-top: 2rem;
+    padding: .5rem 0rem;
+    float: right;
+    margin-right: 1rem;
+    background-color: white;
+    &-content{
+        width: 100%;
+        height: auto;
+        padding: 1rem 0rem;
+        display: flex;
+        align-items: center;
+        // background-color:pink;
+       &>hr{
+        // margin-top: 1.5rem;
+        height: 10vh;
+        color: rgb(179, 169, 169);
+       }
+      }
+}
+
+&-slider{
+  width: 90%;
+  height: auto;
+  margin-top: 3rem;
+  float: right;
+  margin-right: 1rem;
+  padding: .5rem 0rem;
+  background-color: lightcyan;
+  &-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: .5rem 0rem;
+    background-color: lightgray;
+    &-left{
+      width: 50%;
+      height: 30vh;
+      padding: .5rem 0rem;
+      background-color: aqua;
+      &>div{
+        display: flex;
+        align-items: center;
+        &>img{
+          margin-left: 1rem;
+        }
+        &>p{
+          margin-left: 1rem;
+          font-size: 1.5rem;
+          color: gray;
+        }
+      }
+      &>h1{
+        margin-left: 1rem;
+        margin-top: 1rem;
+      }
+    }
+    &-right{
+      width: 50%;
+      height: auto;
+      padding: .5rem 0rem;
+      background-color: lightgreen;
+    }
+  }
+}
+}
+
+}
+
+.cardbox{
+  width:17%;
+  height: auto;
+  padding: .5rem 0rem;
+  margin-left:1rem;
+  // background-color: lightcyan;
+  // border-right: 1px solid gray;
+  &>img{
+    margin-left: 1rem;
+  }
+  &-text{
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    &>p{
+      font-size: 1.3rem;
+      color: gray;
+    }
+    &>img{
+      margin-left: .5rem;
+    }
+  }
+  &>p{
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: .5rem;
+  }
+}
